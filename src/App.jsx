@@ -1,13 +1,13 @@
-import { useState } from 'react'
-
+import { Button } from "@chakra-ui/react";
+import { Route } from "react-router-dom";
 function App() {
-  const [count, setCount] = useState(0)
+ 
+  return 
+  <>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+    </Routes>
+  </>;
+} 
 
-  return (
-    <>
-    Hi Raj
-    </>
-  )
-}
-
-export default App
+export default App;
