@@ -19,7 +19,7 @@ const styles = {
 
 // Add your color mode config
 const config = {
-  initialColorMode: 'dark',
+  initialColorMode: "dark",
   useSystemColorMode: false,
 }
 
