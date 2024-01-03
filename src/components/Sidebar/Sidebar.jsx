@@ -3,8 +3,7 @@ import { Link as RouterLink } from 'react-router-dom';
 import { InstagramLogo, InstagramMobileLogo, NotificationsLogo, SearchLogo } from '../../assets/constants';
 import { AiOutlineHome } from 'react-icons/ai';
 import {BiLogOut} from 'react-icons/bi';
-import { MdSavings } from "react-icons/md";
-import { MdOutlineSavings } from "react-icons/md";
+import { BsBank2 } from "react-icons/bs";
 
 
 
@@ -29,7 +28,7 @@ const Sidebar = () => {
       },
 
       {
-        icon: <MdOutlineSavings />,
+        icon: <BsBank2 size={25} />,
         text: "Chama",
         link: "/chilspotchama",
 
