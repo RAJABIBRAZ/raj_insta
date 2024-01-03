@@ -1,5 +1,6 @@
 import { Box, Flex } from "@chakra-ui/react"
 import { useLocation } from "react-router-dom"
+import Sidebar from "../../components/Sidebar/Sidebar";
 
 const PageLayout = ({children}) => {
     const {pathname} = useLocation();
@@ -9,7 +10,7 @@ const PageLayout = ({children}) => {
         {/* sidebar on the left */}
         {pathname !== '/auth' ? (
         <Box w={{base:"70px",md:"240px"}}>
-            
+            <Sidebar /> 
         </Box>
         ) : null }
        
